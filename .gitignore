@@ -1,0 +1,14 @@
+node_modules/
+.env
+.DS_Store
+dist/
+
+
+**In `.env`**:
+This is where you store your sensitive "secrets" (like your MongoDB link). Use a `KEY=VALUE` format:
+text
+PORT=5000
+MONGODB_URI=mongodb+srv://dishapirodiya_db_user:Disha@28@cluster.mongodb.net/mydatabase
+```
+
+*Important*: After creating these, your git add . command will finally work correctly because Git will see the .gitignore and skip the massive node_modules folder.
