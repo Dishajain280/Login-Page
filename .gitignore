@@ -12,3 +12,6 @@ MONGODB_URI=mongodb+srv://dishapirodiya_db_user:Disha@28@cluster.mongodb.net/myd
 ```
 
 *Important*: After creating these, your git add . command will finally work correctly because Git will see the .gitignore and skip the massive node_modules folder.
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
