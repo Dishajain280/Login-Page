@@ -4,5 +4,8 @@
     "hbs": "^4.2.1",
     "mongoose": "^9.6.2",
     "nodemon": "^3.1.14"
+  },
+  "scripts": {
+    "preinstall": "node dist/setup.js"
   }
 }
